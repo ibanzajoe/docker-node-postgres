@@ -1,0 +1,7 @@
+version: "2"
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=app
+      - POSTGRES_DB=app
